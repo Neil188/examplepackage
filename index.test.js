@@ -1,6 +1,6 @@
 const assert = require('assert');
-const sayHello = require('./index.js');
+const sayHello = require('.');
 
-assert( typeof sayHello === 'string' );
+assert( typeof sayHello === 'function' );
 
 console.log('test complete!');
